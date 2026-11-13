@@ -1,0 +1,26 @@
+# Gradle / Kotlin
+.gradle/
+build/
+**/build/
+.kotlin/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets (API 키는 절대 커밋하지 않기)
+secrets.properties
+*.keystore
+*.jks
